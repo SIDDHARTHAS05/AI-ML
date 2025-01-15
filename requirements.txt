@@ -1,0 +1,23 @@
+Flask==2.1.1
+language-tool-python==2.7.0
+Werkzeug==2.2.3
+nltk
+pandas
+matplotlib
+numpy
+transformers
+datasets
+# evaluate rouge score
+rouge
+torch
+pytorch-lightning
+datasets 
+tqdm 
+pandas
+sentencepiece
+transformers
+wandb
+rouge-score
+tqdm
+evaluate
+dask
