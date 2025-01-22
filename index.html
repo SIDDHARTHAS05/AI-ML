@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Correction App</title>
+</head>
+<body>
+    <h1>Grammar Correction App</h1>
+    <h2>Correct a Single Sentence</h2>
+    <form id="textForm">
+        <label for="textInput">Enter Text:</label><br>
+        <textarea id="textInput" rows="4" cols="50" placeholder="Type text here..."></textarea><br>
+        <button type="button" onclick="correctText()">Correct</button>
+    </form>
+    <div id="singleResult"></div>
+
+    <h2>Upload a File for Batch Correction</h2>
+    <form id="fileForm" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="file" accept=".txt"><br>
+        <button type="button" onclick="uploadFile()">Upload and Correct</button>
+    </form>
+    <div id="fileResult"></div>
+
+  
